@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(127, 184, 205);
+}
+
+.heading-div {
+    background-color: black; 
+    margin-top: 30px;
+    margin-left: 25%; 
+    margin-right: 25%;
+    padding: 5px;
+    border-radius: 25px;
+}
+
+.main-div {
+    background-color: rgb(253, 201, 117);
+    height: 500px;
+    width: auto;
+    margin-top: 20px;
+    margin-left: 250px;
+    margin-right: 250px;
+    align-items: center;
+    text-align: center;
+}
+#countrySelect {
+    margin-top: 20px;
+    padding: 10px;
+    margin-left: 600px;
+}

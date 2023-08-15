@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="heading-div">
+            <h1 style="color: #fff; text-align: center;">Fetching Data using Covid API</h1>
+        </div>
+        
+        <div class="main-div">
+            <label for="country">Choose a country:</label>
+            <select name='country' id="countrySelect">
+                <option value="" disabled selected>Select</option>
+            </select>
+
+            <h2>Country name: <span id="country_name"></span></h2>
+            <p>Total Cases: <span id="Total_Cases"></span> </p>
+            <p>Total Deaths: <span id="Total_Deaths"></span></p>
+            <p>New Cases: <span id="Active_Cases"></span></p>
+            <p>Recovered Cases: <span id="Recovered_Cases"></span></p>
+
+        </div>
+        <script src="main.js" async defer></script>
+    </body>
+</html>
